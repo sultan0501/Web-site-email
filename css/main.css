@@ -1,0 +1,305 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ a {
+    text-decoration: none;
+ }
+
+
+ ul {
+    list-style: none;
+ }
+
+ .wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)) ,url(../img/rasm3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+   
+
+}
+.container {
+    width: 1200px;
+ padding: 10px;
+    margin-left: 90px;
+   
+}
+.link {
+    color: white;
+    padding: 30px;
+
+    
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.corner {
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    border: 2px solid darkorange;
+    color: white;
+    display: flex;
+  padding-left: 10px;
+ 
+
+}
+.list {
+    display: inline-flex;
+ align-items: center;
+
+ 
+}
+.text {
+    color: darkorange;
+    font-size: 45px;
+}
+
+.text1 {
+padding-right:60px;
+
+}
+.word {
+width: 30px;
+height: 40px;
+
+border-right: none;
+padding-top: 10px;
+padding-left: 40px;
+background: transparent;
+
+
+}
+
+.search {
+    width: 330px;
+
+   text-align: center;
+margin-top: 16px;
+}
+
+.srch {
+    width: 230px;
+    height: 30px;
+    background: transparent;
+  border: 1px solid darkorange;
+color: white;
+border-right: none;
+font-size: 16px;
+text-align: center;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.btn {
+    background: darkorange;
+    width: 60px;
+   height: 30px;
+   margin-left: -5px;
+   border: 2px solid darkorange;
+font-size: 16px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+.srch:focus {
+    outline: none;
+}
+.products {
+  margin-top: 150px;
+}
+
+
+
+.container1 {
+    width: 1200px;
+    margin: auto;
+    margin-left: 90px;
+    display: flex;
+}
+
+.web {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+ 
+    
+}
+
+.webs {
+    font-size: 30px;
+   
+}
+.web1 {
+    color: darkorange;
+}
+.web2 {
+    color: white;
+}
+
+.lorem {
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+   
+}
+.but {
+    width: 200px;
+ height: 40px;
+    margin-top: 20px;
+    border: 2px solid darkorange;
+    background: darkorange;
+   border-radius: 7px;
+   
+}
+.join {
+    color: black;
+    font-size: 18px;
+}
+
+.products1 {
+    color: white;
+}
+
+.log {
+  
+    width: 230px;
+    height: 30px;
+    border-radius: 7px;
+}
+.emil {
+
+    background: transparent;
+    margin-top: 25px;
+    border-bottom: 2px solid rgb(181, 134, 13);
+    font-size: 20px;
+    padding: 5px;
+}
+.pass {
+    /* margin-top: 25px;
+    border-bottom: 2px solid rgb(181, 134, 13);
+    font-size: 20px;
+    padding: 5px; */
+}
+.log {
+    margin-top: 25px;
+
+}
+.her {
+    color: darkorange;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.her1 {
+ color: black;
+ font-size: 17px;
+ font-weight: 700;
+}
+.log1 {
+    margin-top: 25px;
+    width: 230px;
+    height: 30px;
+    border-radius: 7px;
+    background: darkorange;
+}
+
+.account {
+ 
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sign {
+ 
+    margin-top: 3px;
+    color: darkorange;
+    font-size: 17px;
+}
+span {
+    color: white;
+}
+.in {
+    margin-top: 15px;
+    font-size: 17px;
+   
+}
+
+.srch1 {
+    margin-top: 15px;
+    width: 230px;
+    height: 30px;
+    background: transparent;
+  border: 1px solid darkorange;
+color: white;
+border-right: none;
+font-size: 16px;
+text-align: center;
+border-bottom-left-radius: 5px;
+border-top: none;
+border-left: none;
+padding: 30px;
+}
+
+.srch2 {
+    margin-top: 15px;
+    width: 230px;
+    height: 30px;
+    background: transparent;
+  border: 1px solid darkorange;
+color: white;
+border-right: none;
+font-size: 16px;
+text-align: center;
+border-bottom-left-radius: 5px;
+border-top: none;
+border-left: none;
+padding: 30px;
+}
+
+.products1 {
+    text-align: center;
+}
+.products .but:hover {
+background: black;
+color: white;
+}
+
+.products .join:hover {
+    color: white;
+}
+.logo {
+font-size: 25px;
+
+}
+.fa-brands {
+    margin-top: 10px;
+    color: white;
+}
+
+.products1 {
+    background: black;
+   width: 290px;
+   height: 430px;
+   margin-left: 80px;
+   margin-top: 100px;
+}
+
+.products1 .log1:hover {
+    background: rgb(164, 104, 31);
+
+    }
+.products1 .her1:hover {
+    color: white;
+}
